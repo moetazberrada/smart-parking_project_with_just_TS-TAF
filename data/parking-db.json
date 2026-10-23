@@ -1,0 +1,240 @@
+{
+  "spots": [
+    {
+      "id": 1,
+      "label": "S-1",
+      "size": "small",
+      "status": "available"
+    },
+    {
+      "id": 2,
+      "label": "S-2",
+      "size": "small",
+      "status": "available"
+    },
+    {
+      "id": 3,
+      "label": "S-3",
+      "size": "small",
+      "status": "available"
+    },
+    {
+      "id": 4,
+      "label": "R-1",
+      "size": "regular",
+      "status": "available"
+    },
+    {
+      "id": 5,
+      "label": "R-2",
+      "size": "regular",
+      "status": "available"
+    },
+    {
+      "id": 6,
+      "label": "R-3",
+      "size": "regular",
+      "status": "available"
+    },
+    {
+      "id": 7,
+      "label": "R-4",
+      "size": "regular",
+      "status": "available"
+    },
+    {
+      "id": 8,
+      "label": "R-5",
+      "size": "regular",
+      "status": "available"
+    },
+    {
+      "id": 9,
+      "label": "L-1",
+      "size": "large",
+      "status": "available"
+    },
+    {
+      "id": 10,
+      "label": "L-2",
+      "size": "large",
+      "status": "available"
+    }
+  ],
+  "activeTickets": [],
+  "history": [
+    {
+      "id": 1,
+      "vehicle": {
+        "licensePlate": "47852",
+        "type": "car",
+        "id": 0
+      },
+      "spotId": 4,
+      "entryTime": "2026-10-23T17:52:29.909Z",
+      "exitTime": "2026-10-23T17:54:44.230Z",
+      "duration": 3,
+      "cost": 10
+    },
+    {
+      "id": 2,
+      "vehicle": {
+        "licensePlate": "45",
+        "type": "motorcycle",
+        "id": 0
+      },
+      "spotId": 1,
+      "entryTime": "2026-10-23T18:01:02.705Z",
+      "exitTime": "2026-10-23T18:01:13.895Z",
+      "duration": 1,
+      "cost": 5
+    },
+    {
+      "id": 3,
+      "vehicle": {
+        "licensePlate": "12",
+        "type": "truck"
+      },
+      "spotId": 9,
+      "entryTime": "2026-10-23T18:22:03.523Z",
+      "exitTime": "2026-10-23T18:24:11.744Z",
+      "duration": 3,
+      "cost": 20
+    },
+    {
+      "id": 5,
+      "vehicle": {
+        "licensePlate": "16",
+        "type": "car"
+      },
+      "spotId": 5,
+      "entryTime": "2026-10-23T18:31:58.772Z",
+      "exitTime": "2026-10-23T18:32:25.466Z",
+      "duration": 1,
+      "cost": 10
+    },
+    {
+      "id": 4,
+      "vehicle": {
+        "licensePlate": "15",
+        "type": "car"
+      },
+      "spotId": 4,
+      "entryTime": "2026-10-23T18:31:36.239Z",
+      "exitTime": "2026-10-23T18:32:49.623Z",
+      "duration": 2,
+      "cost": 10
+    },
+    {
+      "id": 6,
+      "vehicle": {
+        "licensePlate": "16",
+        "type": "car"
+      },
+      "spotId": 5,
+      "entryTime": "2026-10-23T18:32:38.312Z",
+      "exitTime": "2026-10-23T18:32:55.928Z",
+      "duration": 1,
+      "cost": 10
+    },
+    {
+      "id": 7,
+      "vehicle": {
+        "licensePlate": "10",
+        "type": "motorcycle"
+      },
+      "spotId": 1,
+      "entryTime": "2026-10-23T18:41:59.992Z",
+      "exitTime": "2026-10-23T18:43:13.641Z",
+      "duration": 2,
+      "cost": 5
+    }
+  ],
+  "events": [
+    {
+      "type": "vehicle-parked",
+      "vehiclePlate": "47852",
+      "parkingLabel": "R-1",
+      "at": "2026-10-23T17:52:29.909Z"
+    },
+    {
+      "type": "vehicle-released",
+      "vehiclePlate": "47852",
+      "costMAD": 10,
+      "at": "2026-10-23T17:54:44.230Z"
+    },
+    {
+      "type": "vehicle-parked",
+      "vehiclePlate": "45",
+      "parkingLabel": "S-1",
+      "at": "2026-10-23T18:01:02.705Z"
+    },
+    {
+      "type": "vehicle-released",
+      "vehiclePlate": "45",
+      "costMAD": 5,
+      "at": "2026-10-23T18:01:13.895Z"
+    },
+    {
+      "type": "vehicle-parked",
+      "vehiclePlate": "12",
+      "parkingLabel": "L-1",
+      "at": "2026-10-23T18:22:03.523Z"
+    },
+    {
+      "type": "vehicle-released",
+      "vehiclePlate": "12",
+      "costMAD": 20,
+      "at": "2026-10-23T18:24:11.744Z"
+    },
+    {
+      "type": "vehicle-parked",
+      "vehiclePlate": "15",
+      "parkingLabel": "R-1",
+      "at": "2026-10-23T18:31:36.239Z"
+    },
+    {
+      "type": "vehicle-parked",
+      "vehiclePlate": "16",
+      "parkingLabel": "R-2",
+      "at": "2026-10-23T18:31:58.772Z"
+    },
+    {
+      "type": "vehicle-released",
+      "vehiclePlate": "16",
+      "costMAD": 10,
+      "at": "2026-10-23T18:32:25.466Z"
+    },
+    {
+      "type": "vehicle-parked",
+      "vehiclePlate": "16",
+      "parkingLabel": "R-2",
+      "at": "2026-10-23T18:32:38.312Z"
+    },
+    {
+      "type": "vehicle-released",
+      "vehiclePlate": "15",
+      "costMAD": 10,
+      "at": "2026-10-23T18:32:49.623Z"
+    },
+    {
+      "type": "vehicle-released",
+      "vehiclePlate": "16",
+      "costMAD": 10,
+      "at": "2026-10-23T18:32:55.928Z"
+    },
+    {
+      "type": "vehicle-parked",
+      "vehiclePlate": "10",
+      "parkingLabel": "S-1",
+      "at": "2026-10-23T18:41:59.992Z"
+    },
+    {
+      "type": "vehicle-released",
+      "vehiclePlate": "10",
+      "costMAD": 5,
+      "at": "2026-10-23T18:43:13.641Z"
+    }
+  ],
+  "nextTicketId": 8
+}

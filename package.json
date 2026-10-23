@@ -1,0 +1,16 @@
+{
+  "name": "smart-parking_project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Smart Parking Management System with TypeScript + TAF",
+  "scripts": {
+    "dev": "tsx src/main.ts",
+    "typecheck": "tsc --noEmit",
+    "start": "tsx src/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
